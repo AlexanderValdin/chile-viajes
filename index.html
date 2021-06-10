@@ -10,12 +10,8 @@
 
     <!-- google fonts -->
 
-          <!-- Oswald -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
-          <!-- Open sans -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -25,50 +21,48 @@
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
-    <!-- Javascript -->
   </head>
   <body>
 
-    <header id="header" class="carousel slide" data-ride="carousel">
+    <header>
+      <!-- Navbar start-->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="pb-3 pr-2" src="assets/img/viajes.svg" alt=""><h1>Viajes Chile</h1></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#trabajos">Destacados</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+
+      <!-- Navbar end -->
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <!-- Navbar start-->
-
-          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-
-            <div class="container">
-              <a class="navbar-brand" href="#"><img src="assets/img/Viajes.svg" alt=""><h1>Viajes Chile</h1></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#inicio">Inicio</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#trabajos">Destacados</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-          </nav>
-
-          <!-- Navbar end -->
-
-          <!-- Carousel items and controls start -->
           <div class="carousel-item active">
             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
           </div>
@@ -87,27 +81,37 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-        <!-- Carousel items and controls end -->
+      </div>
     </header>
+
 
     <!-- main  start-->
 
-    <main>
+    <main class="">
       <!-- Section Quienes somos start -->
-      <section id="quienes-somos" class="">
-        <div class="text-center">
-          <h1>¿Quiénes somos?</h1>
+      <section id="quienes-somos" class="d-none d-sm-block">
+        <div class="">
+          <h1 class="text-center text-white pt-4 mb-2">¿Quiénes somos?</h1>
           <hr>
         </div>
-        <div class="row">
-          <div class="col-12 col-sm-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row container mx-auto">
+          <div class="col-12 col-md-4">
+            <div class="bg-fontawesome text-center my-2">
+              <i class="text-white fas fa-plane py-2"></i>
+            </div>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-          <div class="col-12 col-sm-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="col-12 col-md-4">
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="bg-fontawesome text-center my-2">
+              <i class="text-white fas fa-plane py-2"></i>
+            </div>
           </div>
-          <div class="col-12 col-sm-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="col-12 col-md-4">
+            <div class="bg-fontawesome text-center my-2">
+              <i class="text-white fas fa-plane py-2"></i>
+            </div>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </section>
@@ -117,44 +121,44 @@
       <!-- Section Destacados start -->
 
       <section id="destacados" class="">
-        <div class="text-center">
-          <h1>Destacados</h1>
+        <div class="">
+          <h1 class="text-center text-white pt-4 mb-2">Destacados</h1>
           <hr>
         </div>
-        <div class="row">
-          <div class="col-12 col-sm-3">
-            <div class="card border-0">
+        <div class="row container mx-auto">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card border-white">
                 <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
                 <div class="card-body">
-                  <h4 class="card-title mb-3">Meet & Coffee</h4>
-                  <p class="card-text font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h4 class="card-title text-white mb-3">Meet & Coffee</h4>
+                  <p class="card-text text-white font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
           </div>
-          <div class="col-12 col-sm-3">
-            <div class="card border-0">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card border-white">
                 <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
                 <div class="card-body">
-                  <h4 class="card-title mb-3">Meet & Coffee</h4>
-                  <p class="card-text font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h4 class="card-title text-white mb-3">Meet & Coffee</h4>
+                  <p class="card-text text-white font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
           </div>
-          <div class="col-12 col-sm-3">
-            <div class="card border-0">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card border-white">
                 <img src="assets/img/card3.jpg" class="card-img-top" alt="card1">
                 <div class="card-body">
-                  <h4 class="card-title mb-3">Meet & Coffee</h4>
-                  <p class="card-text font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h4 class="card-title text-white mb-3">Meet & Coffee</h4>
+                  <p class="card-text text-white font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
           </div>
-          <div class="col-12 col-sm-3">
-            <div class="card border-0">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card border-white">
                 <img src="assets/img/card4.jpg" class="card-img-top" alt="card1">
                 <div class="card-body">
-                  <h4 class="card-title mb-3">Meet & Coffee</h4>
-                  <p class="card-text font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h4 class="card-title text-white mb-3">Meet & Coffee</h4>
+                  <p class="card-text text-white font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
           </div>
@@ -166,8 +170,8 @@
       <!-- Section Contacto start -->
 
       <section id="contacto" class="">
-        <div class="text-center">
-          <h1>Contacto</h1>
+        <div class="">
+          <h1 class="text-center text-white pt-4 mb-2">Contacto</h1>
           <hr>
         </div>
         <div class="container">
@@ -184,10 +188,10 @@
 
     <!-- footer start -->
 
-    <footer id="footer" class="text-center text-white py-5">
+    <footer id="footer" class="text-center text-white py-2">
       <div class="row container m-auto">
         <div class="col-12 col-sm-6">
-          <h1 class="font-weight-lighter">Viajes Chile</h1>
+          <h1>VIAJES CHILE</h1>
         </div>
         <div class="col-12 col-sm-6 mt-4 mt-sm-0">
           <i class="fab fa-github fa-3x mx-2"></i>

@@ -1,1 +1,54 @@
+:root {
+  --sec: #17A3B8;
+}
+* {
+  font-family: Raleway;
+}
+
 /* header */
+
+nav {
+  z-index: 1;
+}
+
+nav img{
+  display: inline-block;
+  width: 50px;
+}
+
+nav h1 {
+  font-size: 20px;
+  display: inline-block;
+}
+
+#carouselExampleControls {
+  margin-top: -94px;
+}
+
+/* main */
+
+main {
+  background-color: #000;
+}
+hr {
+  background-color: var(--sec);
+  width:90%;
+}
+main h1 {
+  font-size: 20px;
+}
+
+/* section quienes somos */
+
+.bg-fontawesome {
+  background-color: var(--sec);
+}
+
+/* section destacados */
+
+.card-body {
+  background-color: var(--sec);
+}
+footer {
+  background-color: var(--sec);
+}
